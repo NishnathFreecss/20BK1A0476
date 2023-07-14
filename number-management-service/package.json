@@ -1,12 +1,16 @@
 {
-  "name": "numberManagementService",
+  "name": "number-management-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "HTTP microservice for number management",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Nishant",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "nodemon": "3.0.1"
+  }
 }
